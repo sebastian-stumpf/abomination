@@ -1,0 +1,74 @@
+(footprint "abimination-trackpad-holder" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Abomination trackpad holder m2 holes")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -2.9) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6ede84aa-f9a3-4751-b268-c958cc9f44dd)
+  )
+  (fp_text value "abomination-trackpad-holder" (at 0 2.9) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 03908763-1a56-407b-8b6f-3536ab9b9a11)
+  )
+  (fp_circle (center -19.8 -19.8) (end -17.9 -19.8)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp 20f69662-cee2-4186-91c9-da7a9805a6ec))
+  (fp_circle (center -19.8 19.8) (end -17.9 19.8)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp 71f04629-f6b4-4278-a2f8-6fbf4e2ce1eb))
+  (fp_circle (center 19.8 -19.8) (end 21.7 -19.8)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp ec61022e-859b-4d41-a21c-6609e77c6b62))
+  (fp_circle (center 19.8 19.8) (end 21.7 19.8)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp ac912b3c-a94f-4755-9c23-ae09b3adb054))
+  (fp_circle (center -19.8 -19.8) (end -17.65 -19.8)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp c6e9b602-be4e-4bf7-8e4a-d582e259b1af))
+  (fp_circle (center -19.8 19.8) (end -17.65 19.8)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 0c0c6df4-80ff-49a0-8a7c-18a3ca3de506))
+  (fp_circle (center 19.8 -19.8) (end 21.95 -19.8)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 3238878a-d8a2-48ca-a6fb-d5fb568fe670))
+  (fp_circle (center 19.8 19.8) (end 21.95 19.8)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 245134d9-2d0f-4481-8a3c-5ddcd053723d))
+  (pad "" np_thru_hole circle (at -19.8 -19.8) (size 2.2 2.2) (drill 2.2) (layers "*.Cu" "*.Mask") (tstamp d65d7654-131e-40ae-94fb-edea0e90ab9a))
+  (pad "" np_thru_hole circle (at -19.8 19.8) (size 2.2 2.2) (drill 2.2) (layers "*.Cu" "*.Mask") (tstamp b36f40e5-791c-4ff1-87d8-4a95e5cb2c02))
+  (pad "" np_thru_hole circle (at 19.8 -19.8) (size 2.2 2.2) (drill 2.2) (layers "*.Cu" "*.Mask") (tstamp 88dcd0ef-929d-4c5a-9472-928ce40dc49d))
+  (pad "" np_thru_hole circle (at 19.8 19.8) (size 2.2 2.2) (drill 2.2) (layers "*.Cu" "*.Mask") (tstamp f9d06895-f0d0-4fbe-a387-3a9cc2f82a6b))
+  (group "" (id 2f774f70-017f-4591-b85d-1bad061504cd)
+    (members
+      245134d9-2d0f-4481-8a3c-5ddcd053723d
+      ac912b3c-a94f-4755-9c23-ae09b3adb054
+      f9d06895-f0d0-4fbe-a387-3a9cc2f82a6b
+    )
+  )
+  (group "" (id 33cb71e2-1ff3-4c9c-ad49-1ebda4864b01)
+    (members
+      2f774f70-017f-4591-b85d-1bad061504cd
+      3ce78150-5a0d-4248-8db2-2a92013957ad
+      70db764b-43c2-4120-9fd2-57861c613aa0
+      d14cbf04-f512-497e-9680-671d2e311c19
+    )
+  )
+  (group "" (id 3ce78150-5a0d-4248-8db2-2a92013957ad)
+    (members
+      0c0c6df4-80ff-49a0-8a7c-18a3ca3de506
+      71f04629-f6b4-4278-a2f8-6fbf4e2ce1eb
+      b36f40e5-791c-4ff1-87d8-4a95e5cb2c02
+    )
+  )
+  (group "" (id 70db764b-43c2-4120-9fd2-57861c613aa0)
+    (members
+      20f69662-cee2-4186-91c9-da7a9805a6ec
+      c6e9b602-be4e-4bf7-8e4a-d582e259b1af
+      d65d7654-131e-40ae-94fb-edea0e90ab9a
+    )
+  )
+  (group "" (id d14cbf04-f512-497e-9680-671d2e311c19)
+    (members
+      3238878a-d8a2-48ca-a6fb-d5fb568fe670
+      88dcd0ef-929d-4c5a-9472-928ce40dc49d
+      ec61022e-859b-4d41-a21c-6609e77c6b62
+    )
+  )
+  (model "/home/teadrunk/workspace/kicad/sepp/models/abomination-trackpad-holder.step"
+    (offset (xyz 0 0 18))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
+)

@@ -1,0 +1,3 @@
+[submodule "pcb/marbastlib"]
+	path = pcb/marbastlib
+	url = https://github.com/ebastler/marbastlib

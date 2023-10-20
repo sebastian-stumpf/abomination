@@ -1,6 +1,6 @@
 # abomination
 
-![abomination](abomination.jpg)
+![abomination](newcase.jpg)
 
 ## Attention
 
